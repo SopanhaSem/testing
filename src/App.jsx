@@ -30,10 +30,13 @@ function App() {
           <CardComponents />
           <CardComponents />
         </div>
-        <div className="container h-auto mx-auto px-5 gap-5 mt-5 flex items-center justify-center">
+        <div className=" flex items-center justify-center p-10">
+          <UserChat />
+          <UserChat />
+          <UserChat />
+        </div>
+        <div className="w-full h-auto mx-auto px-5 gap-5 mt-5 flex items-center justify-center">
           <MockUp />
-          <UserChat />
-          <UserChat />
         </div>
       </main>
       <Footer />
